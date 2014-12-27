@@ -14,7 +14,7 @@ TODO:
 	throw exceptions when receiving errors from server (403)
 """
 
-import Web # Class for communicating with the web server.
+from reddiwrap import Web # Class for communicating with the web server.
 
 try:
 	import json
